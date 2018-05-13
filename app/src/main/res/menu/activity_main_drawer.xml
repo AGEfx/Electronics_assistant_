@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/main"
+            android:title="Главная" />
+        <item
+            android:id="@+id/theory"
+            android:icon="@drawable/electro"
+            android:title="Теория" />
+        <item
+            android:id="@+id/comp"
+            android:icon="@drawable/lamp"
+            android:title="Компоненты" />
+        <item
+            android:id="@+id/equip"
+            android:icon="@drawable/akb"
+            android:title="Оборудование" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/akb"
+            android:title="Новости" />
+        <item
+            android:id="@+id/calc"
+            android:icon="@drawable/shnur"
+            android:title="Калькуляторы" />
+    </group>
+
+    <item android:title="Другое">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/info"
+                android:title="О приложении" />
+
+        </menu>
+    </item>
+
+</menu>

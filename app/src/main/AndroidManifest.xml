@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shaba.cards">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Theory"
+            android:label="@string/title_activity_theory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Components"
+            android:label="@string/title_activity_components"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Equipment"
+            android:label="@string/title_activity_equipment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:parentActivityName=".Theory"
+            android:name=".zaryad"
+            android:label="@string/title_activity_zaryad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:parentActivityName=".Theory"
+            android:name=".Web"
+            android:label="@string/title_activity_web"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:parentActivityName=".Theory"
+            android:name=".Theory_1"
+            android:label="@string/title_activity_theory_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Theory2"
+            android:label="Закон Ома"
+            android:parentActivityName=".Theory"/>
+        <activity android:name=".Theory3"
+            android:label="Сила тока напряжение сопротивление"
+            android:parentActivityName=".Theory"/>
+        <activity android:name=".Theory4"
+            android:label="Мощность"
+            android:parentActivityName=".Theory"/>
+        <activity android:name=".Theory5"
+            android:label="Последовательное соединение"
+            android:parentActivityName=".Theory"/>
+        <activity
+            android:parentActivityName=".Theory"
+            android:name=".Theory6"
+            android:label="@string/title_activity_theory6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Comp0"
+            android:label="Резистор"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp1"
+            android:label="Фотоезистор"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp3"
+            android:label="Конденсатор"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp2"
+            android:label="Диод"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp4"
+            android:label="Трансформатор"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp5"
+            android:label="Светодиод"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp6"
+            android:label="Элемент Пельтье"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Comp7"
+            android:label="Диодный мост"
+            android:parentActivityName=".Components"/>
+        <activity android:name=".Equip0"
+            android:label="Амперметр"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".Equip1"
+            android:label="Инструкция для мультиметра"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".Equip2"
+            android:label="Выбираем мультиметр"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".Equip4"
+            android:label="Ардуино"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".News0"
+            android:label="Товары для электрика"
+            android:parentActivityName=".News"/>
+        <activity android:name=".News1"
+            android:label="Веселые картинки"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".News2"
+            android:label="Практика в электротехнике"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".News3"
+            android:label="Шарик из фольги в микроволновке"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".News4"
+            android:label="Как птицы выживают на проводах"
+            android:parentActivityName=".Equipment"/>
+        <activity android:name=".Abouts"
+            android:label="О приложении"
+            android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>
